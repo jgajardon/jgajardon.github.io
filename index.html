@@ -8,7 +8,7 @@
         <meta name="keywords" content="material design, card style, material template, portfolio, corporate, business, creative, agency">
         <meta name="author" content="trendytheme.net">
 
-        <title>Onepage Portfolio</title>
+        <title>Juan Gajardo | Programador</title>
 
         <!--  favicon -->
         <link rel="shortcut icon" href="assets/img/ico/favicon.png">
@@ -18,7 +18,9 @@
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/img/ico/apple-touch-icon-72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="assets/img/ico/apple-touch-icon-57-precomposed.png">
 
+        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css">
 
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css" rel="stylesheet">
         
         <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,500,700,900' rel='stylesheet' type='text/css'>
         <!-- FontAwesome CSS -->
@@ -36,6 +38,7 @@
         <!-- Style CSS -->
         <link href="style.css" rel="stylesheet">
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -55,18 +58,18 @@
               <div class="col-md-6">
                 <!-- Social Icon -->
                 <ul class="list-inline social-top light tt-animate btt">
-                  <li><a href="#"><i class="fa fa-gitlab"></i></a></li>
-                  <li><a href="#"><i class="fa fa-jsfiddle"></i></a></li>
+                  <li><a href="https://github.com/jgajardon"><i class="fa fa-github"></i></a></li>
+                  <li><a href="https://gitlab.com/jgajardo"><i class="fa fa-gitlab"></i></a></li>
                 </ul>
               </div>
 
               <div class="col-md-6 text-right">
                 <ul class="topbar-cta no-margin">
                   <li class="mr-20">
-                    <a><i class="material-icons mr-10">&#xE0B9;</i>info@materialize.com</a>
+                    <a><i class="material-icons mr-10">&#xE0B9;</i>carlozgn@gmail.com</a>
                   </li>
                   <li>
-                    <a><i class="material-icons mr-10">&#xE0CD;</i> +01 123 456 78</a>
+                    <a><i class="material-icons mr-10">&#xE0CD;</i> +569 55341501</a>
                   </li>
                 </ul>
               </div>
@@ -85,32 +88,26 @@
 
                         <!--logo start-->
                         <a href="#top" class="logo-brand page-scroll"  data-section="#top">
-                            <img src="assets/img/logo-white.png" alt=""/>
+
                         </a>
                         <!--logo end-->
 
                         <!-- onepage menu start-->
                         <ul class="nav menuzord-menu pull-right light op-nav">
-                            <li class="active">
-                                <a href="#home" data-scroll>Home</a>
+                            <li>
+                                <a href="#about" data-scroll>Acerca de Mi</a>
                             </li>
                             <li>
-                                <a href="#about" data-scroll>About Me</a>
+                                <a href="#features" data-scroll>Habilidades</a>
                             </li>
                             <li>
-                                <a href="#skills" data-scroll>Skills</a>
+                                <a href="#works" data-scroll>Trabajos</a>
                             </li>
-                            <li>
-                                <a href="#works" data-scroll>Works</a>
-                            </li>
-                            <li>
+                            <!--<li>
                                 <a href="#testimonials" data-scroll>Feedback</a>
-                            </li>
+                            </li>-->
                             <li>
-                                <a href="#features" data-scroll>Features</a>
-                            </li>
-                            <li>
-                                <a href="#contact" data-scroll>Contact</a>
+                                <a href="#contact" data-scroll>Contacto</a>
                             </li>
                         </ul>
                         <!-- onepage menu end-->
@@ -121,48 +118,6 @@
 
         </header>
         <!--header end-->
-
-
-        <section id="home" class="banner-15 height-650 valign-wrapper">
-            <div class="valign-cell">
-              <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h1 class="intro-title text-uppercase mb-30">Jonathon Doe</h1>
-                        <p class="text-medium">Specialising in customer experiences & brand development, we combine digital craftsmanship with innovative thinking to deliver.</p>
-
-
-                        <ul class="social-link dark mb-30 tt-animate btt">
-                          <li>
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                          </li>
-                          <li>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                          </li>
-                          <li>
-                            <a href="#"><i class="fa fa-vimeo"></i></a>
-                          </li>
-                          <li>
-                            <a href="#"><i class="fa fa-dribbble"></i></a>
-                          </li>
-                          <li>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                          </li>
-                          <li>
-                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                          </li>
-                        </ul>
-
-
-                        <a href="#" class="btn btn-lg pink waves-effect waves-light mt-20 mr-20">About Me</a>
-                        <a href="#" class="btn btn-lg black waves-effect waves-light mt-20">Hire Me</a>
-                    </div><!-- row -->
-                </div><!-- row -->
-              </div><!-- /.container -->
-            </div><!-- /.valign-cell -->
-        </section>
-
-
         <section id="about" class="padding-top-110 grey lighten-3">
           <div class="container">
               <div class="row equal-height-row">
@@ -170,14 +125,15 @@
                 <div class="col-md-8">
                   <div class="white z-depth-1 equal-height-column">
                     <div class="box-padding">
-                        <h1 class="text-uppercase mb-30">About Me</h1>
-                        <p>Rhoncus viverra elementum duis neque nunc parturient ante elementum a ultricies neque scelerisque non vestibulum enim condimentum ad ut at <a href="#">parturient id vestibulum posuere nec per</a>. Luctus penatibus et a praesent eros sit varius nam fusce aenean urna nibh hac aliquet malesuada a pretium. Maecenas aliquam taciti fermentum in lacus ut a varius ad ipsum dis suscipit parturient adipiscing faucibus maecenas congue natoque a varius. Sociosqu maecenas quisque posuere ullamcorper maecenas suscipit cras consequat nostra metus fermentum tincidunt diam inceptos potenti nulla.</p>
+                        <h1 class="text-uppercase mb-30">Perfil</h1>
+                        <p>Estudiante de tercer año de la carrera "Analista Programador", con experiencia trabajando con lenguajes de programación, tales como, C# (.NET), PHP (POO), Javascript (back y front). Manejo de lenguaje SQL/TRANSACT, con diferentes gestores, mayormente SQL Server 2012 y MYSQL.</p>
 
-                        <p>Cursus a nascetur faucibus <a href="#">torquent</a> duis a dolor et nisl laoreet hendrerit velit molestie ac a vulputate. Ut vitae suspendisse arcu dis mauris parturient adipiscing</p>
+                        <p>Persona de muy buenas relaciones interpersonales, capacidad de resolver problemas de forma individual
+                            (autónomo, stackoverflow) pro-activo, autodidacta, experiencia trabajando de manera remota y dispuesto
+                            a aprender cualquier campo de las Tecnologías de la Información.
 
                         <div class="cta-button">
-                          <a href="#!" class="btn pink mr-20 waves-effect waves-light">Download CV</a>
-                          <a href="#!" class="btn black waves-effect waves-light">Get in touch</a>
+                          <a href="#!" class="btn pink mr-20 waves-effect waves-light">Descargar CV</a>
                         </div>
                     </div>
                   </div>
@@ -187,122 +143,128 @@
                     <div class="author-wrapper profile white z-depth-1 equal-height-column">
 
                         <div class="author-cover">
-                            <img src="assets/img/blog/author-large-thumb.jpg"  alt="">
+                            <img src="assets/img/blog/fondo-avatar.png"  alt="">
                         </div>
 
                         <div class="author-avatar">
-                            <img src="assets/img/blog/author-2.jpg"  alt="">
+                            <img src="assets/img/blog/yo.jpg"  alt="">
 
-                            <h2 class="text-extrabold text-uppercase no-margin">Jonathon Doe</h2>
-                            <span>User Interface Designer</span>
+                            <h2 class="text-extrabold text-uppercase no-margin">Juan Gajardo</h2>
+                            <span>Programador</span>
                         </div>
 
                         <ul class="author-meta mb-30">
-                            <li><span class="title"> Age </span> 23 Years Old</li>
-                            <li><span class="title"> Phone </span> +088 01717 957156</li>
-                            <li><span class="title"> Email </span> email@gmail.com</li>
-                            <li><span class="title"> Address </span> <span class="address">Hoffman Parkway, P.O Box 154 <br> Mountain View. USA</span></li>
+                            <li><span class="title"> Edad </span> 27 Años</li>
+                            <li><span class="title"> Movil </span> +569 5534 1501</li>
+                            <li><span class="title"> Email </span> carlozgn@gmail.com</li>
+                            <li><span class="title"> Residencia </span> <span class="address">Recoleta, Santiago<br> RM. Chile</span></li>
                         </ul>
                         <hr>
-                        <span class="available"><a class="page-scroll" href="#contact">Available for Freelance Work</a></span>
+                        <span class="available"><a class="page-scroll" href="#contact">Disponible para trabajos freelance</a></span>
                     </div> <!-- /author-info-wrapper -->
                 </div>
               </div>
           </div>
         </section>
 
+        <section id="features" class="padding-top-110 grey lighten-3">
+            <div class="container">
 
-        <section id="skills" class="padding-top-90 padding-bottom-20 grey lighten-3">
-          <div class="container">
-              <div class="box-padding white z-depth-1">
                 <div class="text-center mb-80">
-                    <h1 class="text-uppercase mb-30">Awesome skills</h1>
-                    <p>Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. <br>Sed at vestibulum purus, sit amet viverra diam. Nulla ac nisi rhoncus.</p>
+                    <h1 class="text-uppercase mb-30">Mis Habilidades</h1>
                 </div>
 
                 <div class="row">
+                    <div class="col-md-4 mb-30">
+                        <div class="featured-item hover-outline brand-hover radius-4">
+                            <div class="icon">
+                                <i class="devicon-csharp-plain colored"></i>
+                            </div>
+                            <div class="desc">
+                                <h2>Programación Web</h2>
+                                <p>Habilidades en el area web fundamentalmente bajo la plataforma .NET de Microsoft
+                                    con el lenguaje de programación C#.</p>
+                            </div>
+                        </div><!-- /.featured-item -->
+                    </div><!-- /.col-md-4 -->
 
-                  <div class="col-sm-6">
-                      <div class="progress-section">
-                          <span class="progress-title">Web Design</span>
-                          <div class="progress">
-                              <div class="progress-bar brand-bg six-sec-ease-in-out" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                  <span>90%</span>
-                              </div>
-                          </div><!-- /.progress -->
-                      </div> <!-- progress-section end -->
+                    <div class="col-md-4 mb-30">
+                        <div class="featured-item hover-outline brand-hover radius-4">
+                            <div class="icon">
+                                <i class="fa fa-database" aria-hidden="true"></i>
+                            </div>
+                            <div class="desc">
+                                <h2>SQL/TRANSACT</h2>
+                                <p>Manejo de bases de datos SQL, principalmente con el gestor de BD SQL SERVER y MYSQL.</p>
+                            </div>
+                        </div><!-- /.featured-item -->
+                    </div><!-- /.col-md-4 -->
 
-                      <div class="progress-section">
-                          <span class="progress-title">Mobile Interface</span>
-                          <div class="progress">
-                              <div class="progress-bar brand-bg six-sec-ease-in-out" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">
-                                  <span>86%</span>
-                              </div>
-                          </div>
-                      </div> <!-- progress-section end -->
+                    <div class="col-md-4 mb-30">
+                        <div class="featured-item hover-outline brand-hover radius-4">
+                            <div class="icon">
+                                <i class="devicon-git-plain colored"></i>
+                            </div>
+                            <div class="desc">
+                                <h2>Control de Versionamiento</h2>
+                                <p>Conocimiento en el control de versionamiento GIT, consola y GUI SourceTree,
+                                    con host de repositorios Github y Gitlab.</p>
+                            </div>
+                        </div><!-- /.featured-item -->
+                    </div><!-- /.col-md-4 -->
 
-                      <div class="progress-section">
-                          <span class="progress-title">Mobile Interface</span>
-                          <div class="progress">
-                              <div class="progress-bar brand-bg six-sec-ease-in-out" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">
-                                  <span>86%</span>
-                              </div>
-                          </div>
-                      </div> <!-- progress-section end -->
-                  </div><!-- /.col-md-6 -->
+                    <div class="col-md-4">
+                        <div class="featured-item hover-outline brand-hover radius-4">
+                            <div class="icon">
+                                <i class="devicon-javascript-plain colored"></i>
+                            </div>
+                            <div class="desc">
+                                <h2>Javascript</h2>
+                                <p>Experiencia con el lenguaje de programación "Javascript" en sus 2 estandares mas reconocidos
+                                    como ES5 y ES6.</p>
+                            </div>
+                        </div><!-- /.featured-item -->
+                    </div><!-- /.col-md-4 -->
 
-                  <div class="col-sm-6">
-                      <div class="progress-section">
-                          <span class="progress-title">Web Design</span>
-                          <div class="progress">
-                              <div class="progress-bar brand-bg six-sec-ease-in-out" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                  <span>90%</span>
-                              </div>
-                          </div>
-                      </div> <!-- progress-section end -->
+                    <div class="col-md-4">
+                        <div class="featured-item hover-outline brand-hover radius-4">
+                            <div class="icon">
+                                <i class="devicon-react-original colored"></i>
+                            </div>
+                            <div class="desc">
+                                <h2>Front End</h2>
+                                <p>Experiencia trabajando en el lado del cliente con la libreria creada por "Facebook",
+                                    creación de componentes, consumo de servicios RESTful.</p>
+                            </div>
+                        </div><!-- /.featured-item -->
+                    </div><!-- /.col-md-4 -->
 
-                      <div class="progress-section">
-                          <span class="progress-title">Mobile Interface</span>
-                          <div class="progress">
-                              <div class="progress-bar brand-bg six-sec-ease-in-out" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">
-                                  <span>86%</span>
-                              </div>
-                          </div>
-                      </div> <!-- progress-section end -->
-
-                      <div class="progress-section">
-                          <span class="progress-title">Mobile Interface</span>
-                          <div class="progress">
-                              <div class="progress-bar brand-bg six-sec-ease-in-out" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">
-                                  <span>86%</span>
-                              </div>
-                          </div>
-                      </div> <!-- progress-section end -->
-                  </div><!-- /.col-md-6 -->
-
+                    <div class="col-md-4">
+                        <div class="featured-item hover-outline brand-hover radius-4">
+                            <div class="icon">
+                                <i class="devicon-nodejs-plain colored"></i>
+                            </div>
+                            <div class="desc">
+                                <h2>Back End</h2>
+                                <p>Experiencia creando servicios RESTful, validaciones de datos y programación del lado
+                                    del servidor con esta implementación de JS en el back.</p>
+                            </div>
+                        </div><!-- /.featured-item -->
+                    </div><!-- /.col-md-4 -->
                 </div><!-- /.row -->
-              </div>
-          </div>
-        </section>
 
+            </div><!-- /.container -->
+        </section>
 
         <section id="works" class="padding-top-110 grey lighten-3">
             <div class="container">
 
               <div class="text-center mb-50">
-                  <h1 class="text-uppercase mb-30">Works</h1>
-                  <p class="section-sub">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet vived at vestibulum purus erra,</p>
+                  <h1 class="text-uppercase mb-30">Trabajos</h1>
+                  <p class="section-sub">Experiencia trabajando con distintas empresas y clientes particulares.</p>
               </div>
 
               <div class="portfolio-container">
-                  <ul class="portfolio-filter text-center brand-filter">
-                      <li class="active waves-effect waves-light" data-group="all">All</li>
-                      <li class="waves-effect waves-light" data-group="websites">Websites</li>
-                      <li class="waves-effect waves-light" data-group="branding">Branding</li>
-                      <li class="waves-effect waves-light" data-group="marketing">Marketing</li>
-                      <li class="waves-effect waves-light" data-group="photography">Photography</li>
-                  </ul>
-
 
                   <div class="portfolio portfolio-with-title col-3 gutter mtb-50">
 
@@ -310,17 +272,20 @@
 
                           <div class="card">
                             <div class="card-image waves-effect waves-block waves-light">
-                              <img class="activator" src="assets/img/portfolio/portfolio-1.jpg" alt="image">
+                              <img class="activator" src="assets/img/portfolio/nc.png" alt="image">
                             </div>
                             <div class="card-content">
-                              <span class="card-title activator">Standard Portfolio Title <i class="fa fa-ellipsis-v right"></i> <i class="fa fa-heart-o right"></i></span>
-                              <p><a href="#">Photography</a></p>
+                              <span class="card-title activator">Notebook Center <i class="fa fa-ellipsis-v right"></i> </span>
+                              <p><a href="#">Soporte y Desarrollo Web</a></p>
                             </div>
                             <div class="card-reveal">
-                              <span class="card-title">Standard Portfolio Title <i class="material-icons right">&#xE5CD;</i></span>
-                              <p><a href="#">Photography</a></p>
-                              <p>Authoritatively grow quality technologies for strategic sources. Dramatically evolve front-end services for functional e-markets. Credibly parallel task multifunctional methods.</p>
-                              <a href="#" class="readmore">View full project</a>
+                              <span class="card-title">Notebook Center <i class="material-icons right">&#xE5CD;</i></span>
+                              <p><a href="#">Soporte y Desarrollo Web</a></p>
+                              <p>Encargado del soporte informático presencial a usuarios en la empresa,
+                                  realizando labores de configuración de correo electrónico empresarial, armado
+                                  de equipos, instalación de sistemas operativos. Instalación de S.O Centos y
+                                  administración básica de servidor Linux, ayudante de desarrollo web y
+                                  administración de CMS Prestashop.</p>
                             </div>
                           </div><!-- /.card -->
                         </div><!-- /.portfolio-item -->
@@ -329,17 +294,21 @@
 
                           <div class="card">
                             <div class="card-image waves-effect waves-block waves-light">
-                              <img class="activator" src="assets/img/portfolio/portfolio-2.jpg" alt="image">
+                              <img class="activator" src="assets/img/portfolio/enexum.png" alt="image">
                             </div>
                             <div class="card-content">
-                              <span class="card-title activator">Standard Portfolio Title <i class="fa fa-ellipsis-v right"></i> <i class="fa fa-heart-o right"></i></span>
-                              <p><a href="#">Website</a></p>
+                              <span class="card-title activator">Enexum<i class="fa fa-ellipsis-v right"></i> </span>
+                              <p><a href="#">Soporte y Desarrollo Web</a></p>
                             </div>
                             <div class="card-reveal">
-                              <span class="card-title">Standard Portfolio Title <i class="material-icons right">&#xE5CD;</i></span>
-                              <p><a href="#">Website</a></p>
-                              <p>Authoritatively grow quality technologies for strategic sources. Dramatically evolve front-end services for functional e-markets. Credibly parallel task multifunctional methods.</p>
-                              <a href="#" class="readmore">View full project</a>
+                              <span class="card-title">Enexum <i class="material-icons right">&#xE5CD;</i></span>
+                              <p><a href="#">Soporte y Desarrollo Web</a></p>
+                              <p>Encargado de entregar soporte informático a usuarios internos de la empresa y
+                                  también a sus clientes de manera remota, administración de los servidores
+                                  web de la empresa, realizando labores administrativas como, respaldo de
+                                  sitios web, respaldo de bases de datos MYSQL, configuración de CMS Joomla y
+                                  Wordpress, manipulación del back-end de Magento. Desarrollo de módulos en
+                                  lenguaje PHP para sitios web.</p>
                             </div>
                           </div><!-- /.card -->
                         </div><!-- /.portfolio-item -->
@@ -348,17 +317,20 @@
 
                           <div class="card">
                             <div class="card-image waves-effect waves-block waves-light">
-                              <img class="activator" src="assets/img/portfolio/portfolio-3.jpg" alt="image">
+                              <img class="activator" src="assets/img/portfolio/tynfo.png" alt="image">
                             </div>
                             <div class="card-content">
-                              <span class="card-title activator">Standard Portfolio Title <i class="fa fa-ellipsis-v right"></i> <i class="fa fa-heart-o right"></i></span>
-                              <p><a href="#">Material Design</a></p>
+                              <span class="card-title activator">Tynfo <i class="fa fa-ellipsis-v right"></i> </span>
+                              <p><a href="#">Soporte Servidores</a></p>
                             </div>
                             <div class="card-reveal">
-                              <span class="card-title">Standard Portfolio Title <i class="material-icons right">&#xE5CD;</i></span>
-                              <p><a href="#">Material Design</a></p>
-                              <p>Authoritatively grow quality technologies for strategic sources. Dramatically evolve front-end services for functional e-markets. Credibly parallel task multifunctional methods.</p>
-                              <a href="#" class="readmore">View full project</a>
+                              <span class="card-title">Tynfo <i class="material-icons right">&#xE5CD;</i></span>
+                              <p><a href="#">Soporte Servidores</a></p>
+                              <p>Encargado del soporte informático de empresa inmobiliaria a cargo (Gimax),
+                                  administración de servidores Windows Server, se ejecutan tareas periódicas de
+                                  respaldo de información de la empresa con Softland, respaldo de correos,
+                                  manipulación de software de registro de asistencia Geo Victoria. Desarrollo de
+                                  aplicaciones web en visual basic y C#.</p>
                             </div>
                           </div><!-- /.card -->
                         </div><!-- /.portfolio-item -->
@@ -367,17 +339,18 @@
 
                           <div class="card">
                             <div class="card-image waves-effect waves-block waves-light">
-                              <img class="activator" src="assets/img/portfolio/portfolio-4.jpg" alt="image">
+                              <img class="activator" src="assets/img/portfolio/crossover.png" alt="image">
                             </div>
                             <div class="card-content">
-                              <span class="card-title activator">Standard Portfolio Title <i class="fa fa-ellipsis-v right"></i> <i class="fa fa-heart-o right"></i></span>
-                              <p><a href="#">UX Design</a></p>
+                              <span class="card-title activator">CrossOverConsulting <i class="fa fa-ellipsis-v right"></i> </span>
+                              <p><a href="#">Analista de Proyectos</a></p>
                             </div>
                             <div class="card-reveal">
-                              <span class="card-title">Standard Portfolio Title <i class="material-icons right">&#xE5CD;</i></span>
-                              <p><a href="#">UX Design</a></p>
-                              <p>Authoritatively grow quality technologies for strategic sources. Dramatically evolve front-end services for functional e-markets. Credibly parallel task multifunctional methods.</p>
-                              <a href="#" class="readmore">View full project</a>
+                              <span class="card-title">CrossOverConsulting <i class="material-icons right">&#xE5CD;</i></span>
+                              <p><a href="#">Analista de Proyectos</a></p>
+                              <p>Experiencia trabajando con plataforma .NET, lenguaje de programación C#, modelo de 3 capas, arquitectura ADO.NET y base de datos Sql Server.
+                                  Desarrollo de aplicaciones web, utilizando React JS en el Front-end y Node JS para el Back-end.
+                                  Análisis y solución de problemas trabajando con base de datos Sql Server 2012, modificación de procedimientos de almacenado, vistas, realización de sentencias sql y generación de informes con Sql Report Builder.</p>
                             </div>
                           </div><!-- /.card -->
                         </div><!-- /.portfolio-item -->
@@ -386,17 +359,16 @@
 
                           <div class="card">
                             <div class="card-image waves-effect waves-block waves-light">
-                              <img class="activator" src="assets/img/portfolio/portfolio-5.jpg" alt="image">
+                              <img class="activator" src="assets/img/portfolio/inchcape.png" alt="image">
                             </div>
                             <div class="card-content">
-                              <span class="card-title activator">Standard Portfolio Title <i class="fa fa-ellipsis-v right"></i> <i class="fa fa-heart-o right"></i></span>
-                              <p><a href="#">UI Design</a></p>
+                              <span class="card-title activator">Inchcape Motors <i class="fa fa-ellipsis-v right"></i></span>
+                              <p><a href="#">Cliente Interno</a></p>
                             </div>
                             <div class="card-reveal">
-                              <span class="card-title">Standard Portfolio Title <i class="material-icons right">&#xE5CD;</i></span>
-                              <p><a href="#">UI Design</a></p>
-                              <p>Authoritatively grow quality technologies for strategic sources. Dramatically evolve front-end services for functional e-markets. Credibly parallel task multifunctional methods.</p>
-                              <a href="#" class="readmore">View full project</a>
+                              <span class="card-title">Inchcape Motors  <i class="material-icons right">&#xE5CD;</i></span>
+                              <p><a href="#">Experiencia con Cliente</a></p>
+                              <p>Mantenimiento del sistema de integración.</p>
                             </div>
                           </div><!-- /.card -->
                         </div><!-- /.portfolio-item -->
@@ -404,25 +376,20 @@
                         <div class="portfolio-item" data-groups='["all", "marketing", "photography"]'>
                           <div class="card">
                             <div class="card-image waves-effect waves-block waves-light">
-                              <img class="activator" src="assets/img/portfolio/portfolio-6.jpg" alt="image">
+                              <img class="activator" src="assets/img/portfolio/indumotora.png" alt="image">
                             </div>
                             <div class="card-content">
-                              <span class="card-title activator">Standard Portfolio Title <i class="fa fa-ellipsis-v right"></i> <i class="fa fa-heart-o right"></i></span>
-                              <p><a href="#">Marketing</a></p>
+                              <span class="card-title activator">Indumotora<i class="fa fa-ellipsis-v right"></i></span>
+                              <p><a href="#">Experiencia con Cliente</a></p>
                             </div>
                             <div class="card-reveal">
-                              <span class="card-title">Standard Portfolio Title <i class="material-icons right">&#xE5CD;</i></span>
-                              <p><a href="#">Marketing</a></p>
-                              <p>Authoritatively grow quality technologies for strategic sources. Dramatically evolve front-end services for functional e-markets. Credibly parallel task multifunctional methods.</p>
-                              <a href="#" class="readmore">View full project</a>
+                              <span class="card-title">Indumotora <i class="material-icons right">&#xE5CD;</i></span>
+                              <p><a href="#">Experiencia con Cliente</a></p>
+                                <p>Mantenimiento del sistema de integración.</p>
                             </div>
                           </div><!-- /.card -->
                         </div><!-- /.portfolio-item -->
                   </div><!-- /.portfolio -->
-
-                  <div class="load-more-button text-center">
-                    <a class="waves-effect waves-light btn btn-large pink"> <i class="fa fa-spinner left"></i> Load More</a>
-                  </div>
 
               </div><!-- portfolio-container -->
 
@@ -430,7 +397,7 @@
         </section>
 
 
-        <section id="testimonials" class="padding-top-90 padding-bottom-20 grey lighten-3">
+        <!--<section id="testimonials" class="padding-top-90 padding-bottom-20 grey lighten-3">
           <div class="container">
             <div class="box-padding white z-depth-1">
                 <div class="row">
@@ -494,97 +461,10 @@
                     </div>
 
                   </div>
-                </div><!-- /.row -->
+                </div>
             </div>
           </div>
-        </section>
-
-
-        <section id="features" class="padding-top-110 grey lighten-3">
-            <div class="container">
-
-              <div class="text-center mb-80">
-                  <h1 class="text-uppercase mb-30">Awesome Features</h1>
-                  <p class="section-sub">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet viverra diam nulla ac nisi rhoncus.</p>
-              </div>
-
-              <div class="row">
-                  <div class="col-md-4 mb-30">
-                      <div class="featured-item hover-outline brand-hover radius-4">
-                          <div class="icon">
-                              <i class="material-icons colored brand-icon">&#xE0B7;</i>
-                          </div>
-                          <div class="desc">
-                              <h2>Creative Design</h2>
-                              <p>Porttitor communicate pandemic data rather than enabled niche markets neque rather than enabled niche markets neque pulvinar.</p>
-                          </div>
-                      </div><!-- /.featured-item -->
-                  </div><!-- /.col-md-4 -->
-
-                  <div class="col-md-4 mb-30">
-                      <div class="featured-item hover-outline brand-hover radius-4">
-                          <div class="icon">
-                              <i class="material-icons colored brand-icon">&#xE912;</i>
-                          </div>
-                          <div class="desc">
-                              <h2>Fully Responsive</h2>
-                              <p>Porttitor communicate pandemic data rather than enabled niche markets neque rather than enabled niche markets neque pulvinar.</p>
-                          </div>
-                      </div><!-- /.featured-item -->
-                  </div><!-- /.col-md-4 -->
-
-                  <div class="col-md-4 mb-30">
-                      <div class="featured-item hover-outline brand-hover radius-4">
-                          <div class="icon">
-                              <i class="material-icons colored brand-icon">&#xE8B8;</i>
-                          </div>
-                          <div class="desc">
-                              <h2>Flexible Page Builder</h2>
-                              <p>Porttitor communicate pandemic data rather than enabled niche markets neque rather than enabled niche markets neque pulvinar.</p>
-                          </div>
-                      </div><!-- /.featured-item -->
-                  </div><!-- /.col-md-4 -->
-
-                  <div class="col-md-4">
-                      <div class="featured-item hover-outline brand-hover radius-4">
-                          <div class="icon">
-                              <i class="material-icons colored brand-icon">&#xE323;</i>
-                          </div>
-                          <div class="desc">
-                              <h2>Mobile Applicaion Design</h2>
-                              <p>Porttitor communicate pandemic data rather than enabled niche markets neque rather than enabled niche markets neque pulvinar.</p>
-                          </div>
-                      </div><!-- /.featured-item -->
-                  </div><!-- /.col-md-4 -->
-
-                  <div class="col-md-4">
-                      <div class="featured-item hover-outline brand-hover radius-4">
-                          <div class="icon">
-                              <i class="material-icons colored brand-icon">&#xE412;</i>
-                          </div>
-                          <div class="desc">
-                              <h2>Professional Photography</h2>
-                              <p>Porttitor communicate pandemic data rather than enabled niche markets neque rather than enabled niche markets neque pulvinar.</p>
-                          </div>
-                      </div><!-- /.featured-item -->
-                  </div><!-- /.col-md-4 -->
-
-                  <div class="col-md-4">
-                      <div class="featured-item hover-outline brand-hover radius-4">
-                          <div class="icon">
-                              <i class="material-icons colored brand-icon">&#xE02C;</i>
-                          </div>
-                          <div class="desc">
-                              <h2>Moting Graphics Design</h2>
-                              <p>Porttitor communicate pandemic data rather than enabled niche markets neque rather than enabled niche markets neque pulvinar.</p>
-                          </div>
-                      </div><!-- /.featured-item -->
-                  </div><!-- /.col-md-4 -->
-              </div><!-- /.row -->
-              
-            </div><!-- /.container -->
-        </section>
-
+        </section>-->
 
         <section id="contact" class="section-padding grey lighten-3">
           <div class="container">
@@ -597,7 +477,7 @@
                             <div class="col-md-6">
                               <div class="input-field">
                                 <input type="text" name="name" class="validate" id="name">
-                                <label for="name">Name*</label>
+                                <label for="name">Nombre*</label>
                               </div>
 
                             </div><!-- /.col-md-6 -->
@@ -615,25 +495,25 @@
                             <div class="col-md-6">
                               <div class="input-field">
                                 <input id="phone" type="tel" name="phone" class="validate" >
-                                <label for="phone">Phone Number</label>
+                                <label for="phone">Telefono Movil</label>
                               </div>
                             </div><!-- /.col-md-6 -->
 
                             <div class="col-md-6">
                               <div class="input-field">
                                 <input id="website" type="text" name="website" class="validate" >
-                                <label for="website">Your Website</label>
+                                <label for="website">Tu sitio web</label>
                               </div>
                             </div><!-- /.col-md-6 -->
                           </div><!-- /.row -->
 
                           <div class="input-field">
                             <textarea name="message" id="message" class="materialize-textarea" ></textarea>
-                            <label for="message">Message</label>
+                            <label for="message">Mensaje</label>
                           </div>
                           
                           <div class="text-center">
-                              <button type="submit" name="submit" class="waves-effect waves-light btn pink mt-30">Send Message</button>
+                              <button type="submit" name="submit" id="submit" class="waves-effect waves-light btn pink mt-30">Enviar Mensaje</button>
                           </div>
                           
                         </form>
@@ -654,20 +534,10 @@
 
                     <div class="row">
                       <div class="col-md-12 text-center">
-                          <div class="footer-logo">
-                            <a href="#top" class="page-scroll"  data-section="#top">
-                                <img src="assets/img/logo-white.png" alt="">
-                            </a>
-                          </div>
-
                           <ul class="social-link tt-animate ltr">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.facebook.com/herbert.west.90"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-tumblr"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/jcgajardo/"><i class="fa fa-linkedin"></i></a></li>
                           </ul>
                       </div><!-- /.col-md-12 -->
                     </div><!-- /.row -->
@@ -676,22 +546,10 @@
 
             <div class="secondary-footer brand-bg darken-2">
                 <div class="container text-center">
-                    <span class="copy-text">Copyright &copy; 2016 <a href="#">Materialize</a> &nbsp;  | &nbsp;  All Rights Reserved &nbsp;  | &nbsp;  Designed By <a href="#">TrendyTheme</a></span>
+                    <span class="copy-text">Copyright &copy; 2017 &nbsp;  | &nbsp;  All Rights Reserved &nbsp;  | &nbsp;  Desarrollado por Juan Gajardo</span>
                 </div><!-- /.container -->
             </div><!-- /.secondary-footer -->
         </footer>
-
-        
-        <!-- Preloader -->
-        <div id="preloader">
-          <div class="preloader-position"> 
-            <img src="assets/img/logo-colored.png" alt="logo" >
-            <div class="progress">
-              <div class="indeterminate"></div>
-            </div>
-          </div>
-        </div>
-        <!-- End Preloader -->
         
         <!-- jQuery -->
         <script src="assets/js/jquery-2.1.3.min.js"></script>
@@ -708,6 +566,12 @@
         <script src="assets/js/equalheight.js"></script>
         <script src="assets/flexSlider/jquery.flexslider-min.js"></script>
         <script src="assets/js/scripts.js"></script>
+
+        <script>
+            $( "#submit" ).click(function() {
+                swal("JAJAJAJAJA No he tenido tiempo para hacer el formulario, enviame un correo a carlozgn@gmail.com ;)");
+            });
+        </script>
 
     </body>
   
